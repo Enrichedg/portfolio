@@ -219,7 +219,7 @@
           <span class="font-mono font-bold tracking-wider uppercase text-sm">Return</span>
         </a>
         <div class="flex items-center gap-3 text-xs font-mono uppercase tracking-widest text-[#9ca3af] drop-shadow-[0_0_3px_rgba(156,163,175,0.25)]">
-          <span class="hidden md:inline font-semibold text-blue-400">Active &#8211; Back Fall 2026</span>
+          <span class="hidden md:inline font-semibold text-blue-400">Active</span>
           <span class="w-1.5 h-1.5 rounded-full bg-blue-400 shadow-[0_0_8px_rgba(96,165,250,0.5)]"></span>
         </div>
       </div>
@@ -244,9 +244,8 @@
         </div>
         <div>
           <h1 class="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight">WashU Design/Build/Fly</h1>
-          <p class="text-emerald-400 font-mono text-sm uppercase tracking-widest">Payload Systems Engineer</p>
+          <p class="text-emerald-400 font-mono text-sm uppercase tracking-widest">Structures and Test Engineer</p>
           <div class="mt-4 text-[10px] font-mono text-blue-400/90 border border-blue-500/30 px-2 py-1 uppercase inline-block">Sept 2024 – Present</div>
-          <p class="mt-3 text-xs text-gray-500 font-mono max-w-xl">Away Spring 2026 · Returned for the Fall 2026 competition cycle</p>
         </div>
       </div>
 
@@ -293,12 +292,12 @@
             </div>
             <div class="text-gray-300 leading-relaxed text-sm font-light space-y-6">
               <p>
-                My role in WashU DBF focused on supporting the aircraft from
-                <span class="tech-highlight">analysis</span> through
-                <span class="tech-highlight">hardware implementation</span> and
-                <span class="tech-highlight">flight testing</span>, helping ensure that
-                aerodynamic decisions and payload integration aligned with the
-                competition mission requirements.
+                Advanced through Structures, Aerodynamics, and Payload Systems on WashU DBF;
+                currently on the <span class="tech-highlight">Structures and Test</span> subteam.
+                Current focus is supporting
+                <span class="tech-highlight">Mission 3 and ground-mission</span>
+                work for the competition aircraft, building on prior spar FEA,
+                airfoil/wing analysis, and payload-release hardware work.
               </p>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div class="border border-white/10 bg-white/5 p-4">
@@ -310,8 +309,8 @@
                   <p>Supported early <span class="tech-highlight">structural sizing</span> and validation of wing members and load paths to ensure the aircraft remained lightweight while meeting expected loading conditions.</p>
                 </div>
                 <div class="border border-white/10 bg-white/5 p-4">
-                  <div class="text-[10px] font-mono uppercase tracking-widest text-emerald-400 mb-2">Payload System</div>
-                  <p>Contributed to refinement of the <span class="tech-highlight">payload release mechanism</span>, ensuring the design remained compact, manufacturable, and compatible with the overall airframe layout.</p>
+                  <div class="text-[10px] font-mono uppercase tracking-widest text-emerald-400 mb-2">Structures &amp; Test</div>
+                  <p>Supporting <span class="tech-highlight">Mission 3 and ground-mission</span> work from the Structures and Test subteam, plus earlier payload-release mechanism design for airframe fit.</p>
                 </div>
                 <div class="border border-white/10 bg-white/5 p-4">
                   <div class="text-[10px] font-mono uppercase tracking-widest text-emerald-400 mb-2">Flight Testing</div>
@@ -357,15 +356,17 @@
             <div class="mt-6 border border-emerald-500/20 bg-emerald-900/5 rounded-sm overflow-hidden">
               <div class="flex items-center justify-between px-4 py-3 border-b border-white/10 bg-black/30">
                 <div class="text-[10px] font-mono uppercase tracking-widest text-emerald-400">Test Flight Video</div>
-                <div class="text-[10px] font-mono text-gray-500 uppercase tracking-widest">MP4 / WEBM</div>
+                <div class="text-[10px] font-mono text-gray-500 uppercase tracking-widest">MP4</div>
               </div>
               <div class="p-4">
-                <video class="w-full border border-white/10 bg-black/40"
-                       controls playsinline preload="metadata"
-                       poster="assets/images/dbf_field_1.png">
-                  <source src="assets/videos/dbf_test_flight.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
+                <div class="w-full h-[420px] md:h-[480px] border border-white/10 bg-black/40 flex items-center justify-center overflow-hidden">
+                  <video class="max-w-full max-h-full w-auto h-full object-contain"
+                         controls playsinline preload="metadata"
+                         poster="assets/images/dbf_field_1.png">
+                    <source src="assets/videos/dbf_test_flight.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
               </div>
             </div>
           </div>
@@ -427,13 +428,24 @@
 
         <!-- RIGHT SIDEBAR -->
         <div class="space-y-10">
+          <a href="https://www.wudbf.com/" target="_blank" rel="noopener noreferrer"
+             class="block border border-white/10 bg-black overflow-hidden group hover:border-blue-400 transition-all">
+            <div class="bg-[#0a0a0a] p-3">
+              <img src="assets/images/washu-dbf.png" alt="WashU Design/Build/Fly Team"
+                   class="w-full h-auto object-contain">
+            </div>
+            <div class="w-full text-center bg-white/5 text-white font-mono font-bold text-xs uppercase py-4 border-t border-white/10 group-hover:bg-blue-500 group-hover:text-white transition-colors tracking-widest">
+              Visit Team Website <i class="fas fa-external-link-alt ml-2"></i>
+            </div>
+          </a>
+
           <a href="https://aiaa.org/dbf/" target="_blank" rel="noopener noreferrer"
-             class="block p-5 border border-white/10 bg-white/5 hover:bg-white/10 hover:border-blue-400 transition-all group cursor-pointer">
+             class="block p-5 bg-[#18181b] border border-white/20 hover:border-blue-400 hover:bg-[#1f1f23] transition-all group cursor-pointer shadow-[0_0_0_1px_rgba(255,255,255,0.04)]">
             <div class="flex items-center justify-between mb-2">
               <span class="text-xs font-bold text-white font-mono uppercase tracking-widest group-hover:text-blue-400 transition-colors">Competition Intel</span>
-              <i class="fas fa-external-link-alt text-gray-500 group-hover:text-blue-400 group-hover:translate-x-1 transition-transform"></i>
+              <i class="fas fa-external-link-alt text-gray-400 group-hover:text-blue-400 group-hover:translate-x-1 transition-transform"></i>
             </div>
-            <p class="text-[10px] text-gray-400 font-mono leading-relaxed">Official AIAA Design/Build/Fly rules, rankings, and mission parameters.</p>
+            <p class="text-[10px] text-gray-300 font-mono leading-relaxed">Official AIAA Design/Build/Fly rules, rankings, and mission parameters.</p>
           </a>
 
           <div>
