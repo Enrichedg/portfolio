@@ -416,6 +416,11 @@ body {
   user-select: none;
   display: inline-block;
 }
+@media (max-width: 640px) {
+  .sp { font-size: 8px; padding: 4px 8px; letter-spacing: .06em; }
+  .hero-mission-scroll { max-height: 360px; }
+  .hero-mission-item { padding: 8px 8px 8px 10px; }
+}
 .sp:hover  { border-color: rgba(59,130,246,.45); color: #93c5fd; background: rgba(59,130,246,.07); }
 .sp.active { border-color: #3b82f6; color: #fff; background: rgba(59,130,246,.14); box-shadow: 0 0 10px rgba(59,130,246,.18); }
 
