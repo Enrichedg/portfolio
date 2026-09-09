@@ -276,9 +276,19 @@
                     <div class="mb-12">
                         <div class="flex items-center justify-between mb-4">
                             <h4 class="text-[11px] font-mono uppercase tracking-[0.25em] text-sky-300">Aircraft</h4>
-                            <span class="text-[10px] font-mono text-gray-500 uppercase tracking-widest">Fighters · Recon · Bombers</span>
+                            <span class="text-[10px] font-mono text-gray-500 uppercase tracking-widest">Experimental · Fighters · Recon · Bombers</span>
                         </div>
                         <div class="flex gap-6 overflow-x-auto pb-3 -mx-1 px-1 snap-x snap-mandatory">
+
+                            <article class="aircraft-card snap-start bg-black border border-white/10 p-6 relative">
+                                <div class="absolute inset-x-0 -top-10 h-16 opacity-40 pointer-events-none"><div class="w-full h-full bg-[radial-gradient(circle_at_top,_rgba(239,68,68,0.40),_transparent_60%)]"></div></div>
+                                <header class="relative mb-3">
+                                    <div class="flex items-center justify-between mb-1"><span class="text-[11px] font-mono text-red-300 uppercase tracking-widest">X-15</span><span class="text-[10px] font-mono text-gray-500">Experimental</span></div>
+                                    <h4 class="text-sm font-semibold text-white">Flown by those who went first.</h4>
+                                </header>
+                                <p class="relative text-xs text-gray-400 leading-relaxed mb-4">The X-15 stands out to me because it was built to go first. Neil Armstrong flew it before he walked on the moon. Early test pilots took this rocket plane to the edge of the sky so we could learn heat, speed, and control where theory ran out. That is the kind of courage I respect. Fly into the unknown and bring the data home.</p>
+                                <div class="aircraft-viewer-shell relative bg-[#020617] border border-red-500/40 rounded-sm overflow-hidden"><model-viewer src="assets/models/north_american_x-15_plane.glb" alt="North American X-15 3D model" auto-rotate camera-controls interaction-prompt="none" touch-action="pan-y" shadow-intensity="0.7" environment-image="neutral" camera-orbit="20deg 70deg 145%" field-of-view="28deg" loading="lazy"></model-viewer></div>
+                            </article>
 
                             <article class="aircraft-card snap-start bg-black border border-white/10 p-6 relative">
                                 <div class="absolute inset-x-0 -top-10 h-16 opacity-40 pointer-events-none"><div class="w-full h-full bg-[radial-gradient(circle_at_top,_rgba(168,85,247,0.40),_transparent_60%)]"></div></div>
@@ -597,6 +607,7 @@
                 <div>
                     <h3 class="text-xs font-bold text-gray-500 font-mono uppercase tracking-widest mb-6">Aircraft Roster</h3>
                     <div class="space-y-2 text-xs font-mono bg-black border border-white/10 p-4">
+                        <div class="flex items-center justify-between"><span>[XPL] X-15</span><span class="text-red-300">Experimental</span></div>
                         <div class="flex items-center justify-between"><span>[JET] F-117 Nighthawk</span><span class="text-purple-300">Stealth Attack</span></div>
                         <div class="flex items-center justify-between"><span>[JET] SR-71 Blackbird</span><span class="text-sky-300">Mach 3+ Recon</span></div>
                         <div class="flex items-center justify-between"><span>[JET] F-22 Raptor</span><span class="text-blue-300">5th Gen Fighter</span></div>
